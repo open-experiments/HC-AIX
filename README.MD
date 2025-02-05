@@ -16,8 +16,8 @@ For collaboration or inquiries about interesting healthcase use cases and data-e
 | **Role**      | **Name**                      | **LinkedIn Profile**                                         | **Geo-Location** |
 |---------------|-------------------------------|-------------------------------------------------------------|------------------|
 
-## Our Published Work
+## Documents
 
 | Title | Link | Authors  |
 |-------|------|----------|
-
+| 2025 and Beyond    | [Read Article](https://github.com/open-experiments/HC-AIX/blob/main/images/2025-HCAI.pdf)                |  Fatih Nar     |
