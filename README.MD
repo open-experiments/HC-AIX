@@ -4,7 +4,7 @@
     <img src="https://raw.githubusercontent.com/open-experiments/HC-AIX/refs/heads/main/images/haix.png" width="300"/>
 </div>
 
-Welcome to the **Telco-ObX** collaborative experimental workspace. <br>
+Welcome to the **HC-AiX** collaborative experimental workspace. <br>
 This repository is dedicated to problem/issue detection/prediction with image & audio data sources on healthcare domain.
 
 ## Projects
