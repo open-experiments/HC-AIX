@@ -1,0 +1,10 @@
+torch
+torchvision
+monai[all]
+torchmetrics
+accelerate
+numpy
+matplotlib
+scikit-learn
+tqdm
+rich

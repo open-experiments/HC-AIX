@@ -1,0 +1,3870 @@
+{
+  "malignant": [
+    {
+      "file": "mdb023.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 64.90658760070801,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb028.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 53.611968994140625,
+      "min": 0.0,
+      "max": 218.0
+    },
+    {
+      "file": "mdb058.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 55.70860290527344,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb072.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.375895500183105,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb075.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.94671630859375,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb090.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 45.50003147125244,
+      "min": 0.0,
+      "max": 228.0
+    },
+    {
+      "file": "mdb092.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.37376308441162,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb095.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.212130546569824,
+      "min": 0.0,
+      "max": 237.0
+    },
+    {
+      "file": "mdb102.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 36.748125076293945,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb105.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 69.3735237121582,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb110.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.50812530517578,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb111.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.55990982055664,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb115.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 79.09673023223877,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb117.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.104525566101074,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb120.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 50.798587799072266,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb124.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 44.6924352645874,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb125.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 58.33114433288574,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb130.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 67.59114074707031,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb134.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 99.65697574615479,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb141.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 89.80985927581787,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb144.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 91.53309059143066,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb148.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 72.62793159484863,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb155.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 68.8215160369873,
+      "min": 0.0,
+      "max": 229.0
+    },
+    {
+      "file": "mdb158.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 48.736793518066406,
+      "min": 0.0,
+      "max": 214.0
+    },
+    {
+      "file": "mdb170.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.285539627075195,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb171.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 64.91116428375244,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb178.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 36.9646692276001,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb179.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.50609016418457,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb181.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.52512264251709,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb184.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 68.23796272277832,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb186.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.203874588012695,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb202.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 73.56447696685791,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb206.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 56.76636600494385,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb209.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.87241458892822,
+      "min": 0.0,
+      "max": 228.0
+    },
+    {
+      "file": "mdb211.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.82413673400879,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb213.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 38.80790424346924,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb216.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 67.24186706542969,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb231.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 58.443379402160645,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb233.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 41.385390281677246,
+      "min": 0.0,
+      "max": 218.0
+    },
+    {
+      "file": "mdb238.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 41.75605869293213,
+      "min": 0.0,
+      "max": 206.0
+    },
+    {
+      "file": "mdb239.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 74.46668910980225,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb241.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 44.763352394104004,
+      "min": 0.0,
+      "max": 221.0
+    },
+    {
+      "file": "mdb245.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.68260955810547,
+      "min": 0.0,
+      "max": 237.0
+    },
+    {
+      "file": "mdb249.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 53.11530780792236,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb253.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 67.87109661102295,
+      "min": 0.0,
+      "max": 226.0
+    },
+    {
+      "file": "mdb256.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 62.92504119873047,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb264.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.48264503479004,
+      "min": 0.0,
+      "max": 215.0
+    },
+    {
+      "file": "mdb265.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.455973625183105,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb267.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 72.54040622711182,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb270.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.26797008514404,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb271.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 62.384437561035156,
+      "min": 0.0,
+      "max": 234.0
+    },
+    {
+      "file": "mdb274.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 104.69717025756836,
+      "min": 0.0,
+      "max": 255.0
+    }
+  ],
+  "non_malignant": [
+    {
+      "file": "mdb001.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 36.53483963012695,
+      "min": 0.0,
+      "max": 221.0
+    },
+    {
+      "file": "mdb002.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.33194160461426,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb003.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.00662422180176,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb004.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.49838638305664,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb005.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 64.48111057281494,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb006.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 70.0907335281372,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb007.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.86004161834717,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb008.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.96917533874512,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb009.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 53.56374740600586,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb010.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.17546367645264,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb011.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.90763473510742,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb012.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 64.27167701721191,
+      "min": 0.0,
+      "max": 246.0
+    },
+    {
+      "file": "mdb013.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.333505630493164,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb014.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.12980556488037,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb015.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.954519271850586,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb016.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.9000301361084,
+      "min": 0.0,
+      "max": 245.0
+    },
+    {
+      "file": "mdb017.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 30.582947731018066,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb018.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 30.623537063598633,
+      "min": 0.0,
+      "max": 217.0
+    },
+    {
+      "file": "mdb019.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 75.5611515045166,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb020.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 68.75723838806152,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb021.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.49539661407471,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb022.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.878360748291016,
+      "min": 0.0,
+      "max": 221.0
+    },
+    {
+      "file": "mdb024.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.49277305603027,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb025.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.067240715026855,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb026.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 54.81416702270508,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb027.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.760589599609375,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb029.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 62.013885498046875,
+      "min": 0.0,
+      "max": 237.0
+    },
+    {
+      "file": "mdb030.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 56.450748443603516,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb031.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 54.48704528808594,
+      "min": 0.0,
+      "max": 223.0
+    },
+    {
+      "file": "mdb032.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 63.404788970947266,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb033.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 24.979063034057617,
+      "min": 0.0,
+      "max": 213.0
+    },
+    {
+      "file": "mdb034.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.6867733001709,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb035.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 27.531228065490723,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb036.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.517895698547363,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb037.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 32.4043550491333,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb038.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.806812286376953,
+      "min": 0.0,
+      "max": 223.0
+    },
+    {
+      "file": "mdb039.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 26.97495746612549,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb040.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 19.72571849822998,
+      "min": 0.0,
+      "max": 226.0
+    },
+    {
+      "file": "mdb041.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.53580284118652,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb042.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.37077617645264,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb043.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 25.741673469543457,
+      "min": 0.0,
+      "max": 215.0
+    },
+    {
+      "file": "mdb044.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.95017337799072,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb045.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.439270973205566,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb046.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 45.90746307373047,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb047.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 36.516852378845215,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb048.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.36242961883545,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb049.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 74.36226463317871,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb050.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 67.83639240264893,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb051.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.22189426422119,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb052.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 35.66056156158447,
+      "min": 0.0,
+      "max": 211.0
+    },
+    {
+      "file": "mdb053.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.752553939819336,
+      "min": 0.0,
+      "max": 229.0
+    },
+    {
+      "file": "mdb054.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 29.94171142578125,
+      "min": 0.0,
+      "max": 226.0
+    },
+    {
+      "file": "mdb055.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 41.306400299072266,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb056.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 32.91732692718506,
+      "min": 0.0,
+      "max": 226.0
+    },
+    {
+      "file": "mdb057.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.26811599731445,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb059.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 27.02770709991455,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb060.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 26.14464282989502,
+      "min": 0.0,
+      "max": 201.0
+    },
+    {
+      "file": "mdb061.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 25.758949279785156,
+      "min": 0.0,
+      "max": 215.0
+    },
+    {
+      "file": "mdb062.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 30.789093017578125,
+      "min": 0.0,
+      "max": 218.0
+    },
+    {
+      "file": "mdb063.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.91310691833496,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb064.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 48.193655014038086,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb065.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 26.817145347595215,
+      "min": 0.0,
+      "max": 226.0
+    },
+    {
+      "file": "mdb066.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 29.122974395751953,
+      "min": 0.0,
+      "max": 221.0
+    },
+    {
+      "file": "mdb067.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 72.94084453582764,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb068.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 57.90005016326904,
+      "min": 0.0,
+      "max": 237.0
+    },
+    {
+      "file": "mdb069.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.00007247924805,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb070.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.51102638244629,
+      "min": 0.0,
+      "max": 213.0
+    },
+    {
+      "file": "mdb071.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.66760444641113,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb073.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 36.14206886291504,
+      "min": 0.0,
+      "max": 228.0
+    },
+    {
+      "file": "mdb074.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.18165683746338,
+      "min": 0.0,
+      "max": 229.0
+    },
+    {
+      "file": "mdb076.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.45355415344238,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb077.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 63.7285041809082,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb078.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.4157657623291,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb079.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.752450942993164,
+      "min": 0.0,
+      "max": 222.0
+    },
+    {
+      "file": "mdb080.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.16283893585205,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb081.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 62.05804252624512,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb082.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 57.38576412200928,
+      "min": 0.0,
+      "max": 209.0
+    },
+    {
+      "file": "mdb083.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.10216045379639,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb084.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 76.29111957550049,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb085.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.71701622009277,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb086.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.995283126831055,
+      "min": 0.0,
+      "max": 229.0
+    },
+    {
+      "file": "mdb087.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 36.17013931274414,
+      "min": 0.0,
+      "max": 223.0
+    },
+    {
+      "file": "mdb088.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 35.60819911956787,
+      "min": 0.0,
+      "max": 205.0
+    },
+    {
+      "file": "mdb089.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 38.477678298950195,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb091.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 35.606446266174316,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb093.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 39.67289161682129,
+      "min": 0.0,
+      "max": 228.0
+    },
+    {
+      "file": "mdb094.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.74615287780762,
+      "min": 0.0,
+      "max": 212.0
+    },
+    {
+      "file": "mdb096.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 48.28991889953613,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb097.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 66.35125255584717,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb098.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.60183334350586,
+      "min": 0.0,
+      "max": 197.0
+    },
+    {
+      "file": "mdb099.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 48.516676902770996,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb100.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.02167224884033,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb101.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 44.31880569458008,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb103.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 44.571481704711914,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb104.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.01884460449219,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb106.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.20273685455322,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb107.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 67.94990730285645,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb108.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 71.86490440368652,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb109.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 53.82179260253906,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb112.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 63.09707260131836,
+      "min": 0.0,
+      "max": 232.0
+    },
+    {
+      "file": "mdb113.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 36.21082878112793,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb114.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 25.355501174926758,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb116.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 57.425241470336914,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb118.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.650428771972656,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb119.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 53.03609657287598,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb121.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 53.04979991912842,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb122.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.55235004425049,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb123.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.17271041870117,
+      "min": 0.0,
+      "max": 222.0
+    },
+    {
+      "file": "mdb126.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 68.5159740447998,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb127.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 38.969664573669434,
+      "min": 0.0,
+      "max": 223.0
+    },
+    {
+      "file": "mdb128.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.5963716506958,
+      "min": 0.0,
+      "max": 221.0
+    },
+    {
+      "file": "mdb129.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.06537342071533,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb131.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 120.88664150238037,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb132.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 123.81527614593506,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb133.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 102.79391479492188,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb135.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 93.46076488494873,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb136.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 81.73579025268555,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb137.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 50.020352363586426,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb138.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 50.12425422668457,
+      "min": 0.0,
+      "max": 232.0
+    },
+    {
+      "file": "mdb139.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 111.65198421478271,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb140.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 112.80547428131104,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb142.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 86.5836877822876,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb143.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 86.56619167327881,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb145.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 83.98023509979248,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb146.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 82.37273406982422,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb147.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 89.25663471221924,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb149.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 85.55514907836914,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb150.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 78.6543836593628,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb151.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 156.7536735534668,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb152.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 156.64964485168457,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb153.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 64.57909679412842,
+      "min": 0.0,
+      "max": 216.0
+    },
+    {
+      "file": "mdb154.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.90530967712402,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb156.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.94962692260742,
+      "min": 0.0,
+      "max": 225.0
+    },
+    {
+      "file": "mdb157.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 54.475717544555664,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb159.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 69.2885103225708,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb160.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.91050243377686,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb161.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.78492832183838,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb162.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.169806480407715,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb163.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.04981327056885,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb164.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 64.29858779907227,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb165.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.06886386871338,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb166.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.670872688293457,
+      "min": 0.0,
+      "max": 216.0
+    },
+    {
+      "file": "mdb167.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.13028812408447,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb168.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.57097625732422,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb169.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 45.52311420440674,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb172.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.11499881744385,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb173.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 77.22526550292969,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb174.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 76.61126041412354,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb175.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.27453327178955,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb176.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 41.19799041748047,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb177.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 31.497591972351074,
+      "min": 0.0,
+      "max": 226.0
+    },
+    {
+      "file": "mdb180.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.17245578765869,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb182.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.13616371154785,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb183.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 62.34091758728027,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb185.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 38.742783546447754,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb187.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 39.40598011016846,
+      "min": 0.0,
+      "max": 212.0
+    },
+    {
+      "file": "mdb188.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.35813045501709,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb189.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.89362716674805,
+      "min": 0.0,
+      "max": 216.0
+    },
+    {
+      "file": "mdb190.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.38784217834473,
+      "min": 0.0,
+      "max": 217.0
+    },
+    {
+      "file": "mdb191.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 47.352187156677246,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb192.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.338059425354004,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb193.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 66.50876522064209,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb194.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 60.4259557723999,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb195.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.04364204406738,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb196.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 66.68042278289795,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb197.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 58.22078514099121,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb198.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.7561674118042,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb199.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.48525047302246,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb200.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.94662952423096,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb201.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 74.5562105178833,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb203.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.03184032440186,
+      "min": 0.0,
+      "max": 237.0
+    },
+    {
+      "file": "mdb204.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 63.24489402770996,
+      "min": 0.0,
+      "max": 228.0
+    },
+    {
+      "file": "mdb205.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 60.40214920043945,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb207.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 41.968613624572754,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb208.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.998775482177734,
+      "min": 0.0,
+      "max": 223.0
+    },
+    {
+      "file": "mdb210.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.00282382965088,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb212.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 48.99181842803955,
+      "min": 0.0,
+      "max": 225.0
+    },
+    {
+      "file": "mdb214.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.568379402160645,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb215.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 68.91976737976074,
+      "min": 0.0,
+      "max": 234.0
+    },
+    {
+      "file": "mdb217.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.254868507385254,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb218.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 54.665223121643066,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb219.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 69.43809032440186,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb220.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 66.96857070922852,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb221.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.18558311462402,
+      "min": 0.0,
+      "max": 223.0
+    },
+    {
+      "file": "mdb222.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.79805946350098,
+      "min": 0.0,
+      "max": 223.0
+    },
+    {
+      "file": "mdb223.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.0950345993042,
+      "min": 0.0,
+      "max": 232.0
+    },
+    {
+      "file": "mdb224.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 32.854841232299805,
+      "min": 0.0,
+      "max": 217.0
+    },
+    {
+      "file": "mdb225.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.315229415893555,
+      "min": 0.0,
+      "max": 213.0
+    },
+    {
+      "file": "mdb226.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.84209632873535,
+      "min": 0.0,
+      "max": 219.0
+    },
+    {
+      "file": "mdb227.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 44.92674541473389,
+      "min": 0.0,
+      "max": 225.0
+    },
+    {
+      "file": "mdb228.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.39812660217285,
+      "min": 0.0,
+      "max": 232.0
+    },
+    {
+      "file": "mdb229.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 53.185115814208984,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb230.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.80380344390869,
+      "min": 0.0,
+      "max": 239.0
+    },
+    {
+      "file": "mdb232.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 55.227182388305664,
+      "min": 0.0,
+      "max": 208.0
+    },
+    {
+      "file": "mdb234.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 28.950718879699707,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb235.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 48.36892127990723,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb236.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 60.38683605194092,
+      "min": 0.0,
+      "max": 226.0
+    },
+    {
+      "file": "mdb237.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 43.18516159057617,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb240.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 75.01746559143066,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb242.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.647953033447266,
+      "min": 0.0,
+      "max": 219.0
+    },
+    {
+      "file": "mdb243.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.67347049713135,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb244.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 58.3389196395874,
+      "min": 0.0,
+      "max": 237.0
+    },
+    {
+      "file": "mdb246.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.271241188049316,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb247.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.434898376464844,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb248.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.105804443359375,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb250.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 46.47192192077637,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb251.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 44.74641036987305,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb252.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 45.052170753479004,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb254.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 68.22098445892334,
+      "min": 0.0,
+      "max": 224.0
+    },
+    {
+      "file": "mdb255.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 66.44988059997559,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb257.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 57.70252227783203,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb258.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.967936515808105,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb259.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.59237003326416,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb260.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 66.75318050384521,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb261.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 28.658906936645508,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb262.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 29.616223335266113,
+      "min": 0.0,
+      "max": 221.0
+    },
+    {
+      "file": "mdb263.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.57637405395508,
+      "min": 0.0,
+      "max": 245.0
+    },
+    {
+      "file": "mdb266.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.343313217163086,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb268.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.65282344818115,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb269.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.88850975036621,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb272.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 54.38284111022949,
+      "min": 0.0,
+      "max": 225.0
+    },
+    {
+      "file": "mdb273.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 63.56182098388672,
+      "min": 0.0,
+      "max": 234.0
+    },
+    {
+      "file": "mdb275.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 55.52757930755615,
+      "min": 0.0,
+      "max": 254.0
+    },
+    {
+      "file": "mdb276.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 56.918094635009766,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb277.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 50.640387535095215,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb278.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 42.61726665496826,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb279.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 74.15230178833008,
+      "min": 0.0,
+      "max": 237.0
+    },
+    {
+      "file": "mdb280.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 125.33960819244385,
+      "min": 0.0,
+      "max": 255.0
+    },
+    {
+      "file": "mdb281.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.59954643249512,
+      "min": 0.0,
+      "max": 255.0
+    },
+    {
+      "file": "mdb282.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 37.925517082214355,
+      "min": 0.0,
+      "max": 220.0
+    },
+    {
+      "file": "mdb283.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.11749839782715,
+      "min": 0.0,
+      "max": 254.0
+    },
+    {
+      "file": "mdb284.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 35.74324989318848,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb285.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 49.30729961395264,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb286.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 44.33396530151367,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb287.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 28.286306381225586,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb288.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 28.40229034423828,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb289.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 35.30573654174805,
+      "min": 0.0,
+      "max": 244.0
+    },
+    {
+      "file": "mdb290.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 29.457712173461914,
+      "min": 0.0,
+      "max": 238.0
+    },
+    {
+      "file": "mdb291.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.97713375091553,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb292.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.82285785675049,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb293.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 60.90771675109863,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb294.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 58.15829277038574,
+      "min": 0.0,
+      "max": 225.0
+    },
+    {
+      "file": "mdb295.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 80.4646987915039,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb296.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 73.30210971832275,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb297.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 54.63793182373047,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb298.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 51.67328357696533,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb299.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 57.462120056152344,
+      "min": 0.0,
+      "max": 240.0
+    },
+    {
+      "file": "mdb300.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 52.891845703125,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb301.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 41.7652530670166,
+      "min": 0.0,
+      "max": 241.0
+    },
+    {
+      "file": "mdb302.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 34.714932441711426,
+      "min": 0.0,
+      "max": 215.0
+    },
+    {
+      "file": "mdb303.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.203086853027344,
+      "min": 0.0,
+      "max": 222.0
+    },
+    {
+      "file": "mdb304.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 39.56315326690674,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb305.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 50.7974796295166,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb306.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 45.638487815856934,
+      "min": 0.0,
+      "max": 229.0
+    },
+    {
+      "file": "mdb307.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 61.638389587402344,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb308.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 60.16538047790527,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb309.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 65.6669921875,
+      "min": 0.0,
+      "max": 233.0
+    },
+    {
+      "file": "mdb310.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 62.90410804748535,
+      "min": 0.0,
+      "max": 225.0
+    },
+    {
+      "file": "mdb311.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 72.6890516281128,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb312.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 58.96895790100098,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb313.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 59.956892013549805,
+      "min": 0.0,
+      "max": 236.0
+    },
+    {
+      "file": "mdb314.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 63.46229839324951,
+      "min": 0.0,
+      "max": 234.0
+    },
+    {
+      "file": "mdb315.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 55.29900550842285,
+      "min": 0.0,
+      "max": 231.0
+    },
+    {
+      "file": "mdb316.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 58.87525463104248,
+      "min": 0.0,
+      "max": 230.0
+    },
+    {
+      "file": "mdb317.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 39.516669273376465,
+      "min": 0.0,
+      "max": 227.0
+    },
+    {
+      "file": "mdb318.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 40.52590847015381,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb319.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 74.51403331756592,
+      "min": 0.0,
+      "max": 242.0
+    },
+    {
+      "file": "mdb320.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 80.99090194702148,
+      "min": 0.0,
+      "max": 243.0
+    },
+    {
+      "file": "mdb321.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 55.75716781616211,
+      "min": 0.0,
+      "max": 235.0
+    },
+    {
+      "file": "mdb322.pgm",
+      "valid": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "mean": 55.04349231719971,
+      "min": 0.0,
+      "max": 239.0
+    }
+  ]
+}
