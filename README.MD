@@ -1,7 +1,7 @@
 ## Healthcare Data Engineering , Applied AI/ML Self-Experiments. 
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/tme-osx/Telco-ObX/refs/heads/main/image/logo.png" width="300"/>
+    <img src="https://raw.githubusercontent.com/open-experiments/HC-AIX/refs/heads/main/images/haix.png" width="300"/>
 </div>
 
 Welcome to the **Telco-ObX** collaborative experimental workspace. <br>
