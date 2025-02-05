@@ -11,5 +11,5 @@
     <img src="https://raw.githubusercontent.com/breastguard-ai/breastguard-mvp/refs/heads/main/mvp-01/etc/snap01.png" width="800"/>
 </div>
 
-**State:**
+**State:**<br>
 Currently our accuracy is far from satisfactory, this is mainly due to available dataset size and quality. We are working on acquiring better datasets and trying different model sets.
