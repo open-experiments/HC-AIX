@@ -12,7 +12,7 @@ This repository is dedicated to problem/issue detection/prediction with image & 
 2.  ...
 
 ## Team
-For collaboration or inquiries about interesting Observability use cases and Data-Engineering opportunities, feel free to reach out:<br>
+For collaboration or inquiries about interesting healthcase use cases and data-engineering opportunities, feel free to reach out:<br>
 | **Role**      | **Name**                      | **LinkedIn Profile**                                         | **Geo-Location** |
 |---------------|-------------------------------|-------------------------------------------------------------|------------------|
 
