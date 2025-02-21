@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/open-experiments/HC-AIX/refs/heads/main/images/haix.png" width="300"/>
 </div>
 
-# 🩺 Healthcare Data Engineering & Applied AI/ML
+# Healthcare Data Engineering & Applied AI/ML
 
 Welcome to **HC-AiX** – a collaborative experimental workspace dedicated to pioneering healthcare insights through advanced data analysis and artificial intelligence.
 
