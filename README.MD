@@ -57,9 +57,10 @@ Are you passionate about transforming healthcare through data engineering and AI
 
 ## 📚 Publications & Resources
 
-| Title | Link | Author | Year |
-|-------|------|--------|------|
+| Title | Link | Authors | Year |
+|-------|------|---------|------|
 | 2025 and Beyond | [Read Document](https://github.com/open-experiments/HC-AIX/blob/main/images/2025-HCAI.pdf) | Fatih E. Nar | 2025 |
+| AI Engineering: Level Up Your IT Career | [Read Article](https://thenewstack.io/ai-engineering-level-up-your-it-career/) | Henrik Hedlund, Fatih E. NAR | 2024 |
 
 ## 🌟 Get Involved
 
