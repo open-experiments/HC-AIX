@@ -4,7 +4,7 @@
 
 # Healthcare Data Engineering & Applied AI/ML
 
-Welcome to **HC-AiX** – a collaborative experimental workspace dedicated to pioneering healthcare insights through advanced data analysis and artificial intelligence.
+Welcome to **HC-AiX** – a collaborative experimental workspace dedicated to leveraging Data & AI/ML for healthcare workflow enrichments.
 
 ## Projects
 
