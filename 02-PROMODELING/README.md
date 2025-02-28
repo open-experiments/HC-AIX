@@ -1,6 +1,6 @@
-# Breast Cancer Detection using InceptionV3
+# Cancer Detection using InceptionV3
 
-An optimized deep learning system for breast cancer detection from mammography images, classifying them as Benign, Malignant, or Normal.
+An optimized deep learning system for cancer detection from mammography images, classifying them as Benign, Malignant, or Normal.
 
 Authors: Fatih E. NAR (Red Hat), Sedat Kaymaz (Microsoft)
 
