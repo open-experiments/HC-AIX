@@ -78,12 +78,18 @@ cp .env.example .env
 
 ## Usage
 
+### Data ETL
+Get Data Uncompressed and Distributed:
+```bash
+python 01-prepare_data.py 
+```
+
 ### Training
 
 Train a model using default settings:
 
 ```bash
-python main.py --mode train --batch-size 128 --xla --amp --cache-dataset
+python 02-main.py --mode train --batch-size 128 --xla --amp --cache-dataset
 ```
 
 Use cross-validation:
