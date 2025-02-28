@@ -108,6 +108,7 @@ def custom_augment(image):
     
     return image
 
+
 def create_data_generators(x_train, y_train, x_val, y_val, batch_size=128, handle_imbalance=True, cache_dataset=False):
     """
     Create data generators with augmentation.
@@ -141,7 +142,7 @@ def create_data_generators(x_train, y_train, x_val, y_val, batch_size=128, handl
         # Scale weights to have mean of 1 to avoid loss scaling issues
         class_weights = class_weights / np.mean(class_weights)
         
-        class_weights_dict = {i: float(class_weights[i]) for i in range(len(class_weights))}
+        class_weights_dict = {i: class_weights[i] for i in range(len(class_weights))}
         logger.info(f"Class weights: {class_weights_dict}")
     else:
         class_weights_dict = None
@@ -163,7 +164,7 @@ def create_data_generators(x_train, y_train, x_val, y_val, batch_size=128, handl
     # No augmentation for validation
     val_datagen = ImageDataGenerator()
     
-    # Create standard Keras generators
+    # Create generators
     train_generator = train_datagen.flow(
         x_train, y_train,
         batch_size=batch_size,
@@ -176,46 +177,33 @@ def create_data_generators(x_train, y_train, x_val, y_val, batch_size=128, handl
         shuffle=False
     )
     
-    # Create TensorFlow datasets for better performance if requested
+    # Create TensorFlow datasets for better performance
     if cache_dataset:
-        # Create wrapper functions to ensure correct types
-        def train_gen():
-            for x_batch, y_batch in train_generator:
-                # Ensure both are float32 tensors
-                yield (tf.convert_to_tensor(x_batch, dtype=tf.float32), 
-                       tf.convert_to_tensor(y_batch, dtype=tf.float32))
-        
-        def val_gen():
-            for x_batch, y_batch in val_generator:
-                # Ensure both are float32 tensors
-                yield (tf.convert_to_tensor(x_batch, dtype=tf.float32), 
-                       tf.convert_to_tensor(y_batch, dtype=tf.float32))
-        
-        # Create datasets with explicit output signatures
+        # Convert to TF Dataset
         train_dataset = tf.data.Dataset.from_generator(
-            train_gen,
+            lambda: train_generator,
             output_signature=(
-                tf.TensorSpec(shape=(None,) + tuple(x_train.shape[1:]), dtype=tf.float32),
-                tf.TensorSpec(shape=(None,) + tuple(y_train.shape[1:]), dtype=tf.float32)
+                tf.TensorSpec(shape=(None,) + x_train.shape[1:], dtype=tf.float32),
+                tf.TensorSpec(shape=(None,) + y_train.shape[1:], dtype=tf.float32)
             )
         )
         
         val_dataset = tf.data.Dataset.from_generator(
-            val_gen,
+            lambda: val_generator,
             output_signature=(
-                tf.TensorSpec(shape=(None,) + tuple(x_val.shape[1:]), dtype=tf.float32),
-                tf.TensorSpec(shape=(None,) + tuple(y_val.shape[1:]), dtype=tf.float32)
+                tf.TensorSpec(shape=(None,) + x_val.shape[1:], dtype=tf.float32),
+                tf.TensorSpec(shape=(None,) + y_val.shape[1:], dtype=tf.float32)
             )
         )
         
-        # Add optimization steps
+        # Optimize dataset
         train_dataset = train_dataset.cache().prefetch(tf.data.AUTOTUNE)
         val_dataset = val_dataset.cache().prefetch(tf.data.AUTOTUNE)
         
         return train_dataset, val_dataset, class_weights_dict
     
-    # Return standard Keras generators if not using TF Datasets
     return train_generator, val_generator, class_weights_dict
+
 
 class BalancedBatchGenerator:
     """
