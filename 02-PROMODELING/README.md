@@ -52,8 +52,8 @@ breast_cancer_detection/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/breast-cancer-detection.git
-cd breast-cancer-detection
+git clone https://github.com/open-experiments/HC-AIX.git
+cd HC-AIX/02-PROMODELING
 ```
 
 2. Create a virtual environment:
