@@ -89,7 +89,7 @@ python 01-prepare_data.py
 Train a model using default settings:
 
 ```bash
-python 02-main.py --mode train --batch-size 128 --xla --amp --cache-dataset
+python 02-main.py --mode train --batch-size 128 --xla --amp
 ```
 
 Use cross-validation:
