@@ -20,3 +20,11 @@ pytest-cov
 black
 isort
 flake8
+
+# Add-Ons for Notebook work
+livelossplot
+tqdm
+seaborn
+scikit-image
+lightgbm
+xgboost
