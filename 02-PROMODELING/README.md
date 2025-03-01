@@ -105,9 +105,9 @@ Use lightweight model (MobileNetV2):
 python 02-main.py --mode train --lightweight
 ```
 
-### QUICK & DIRTY (LOTR)
+### NOTEBOOK (LOTR)
 ```bash
-python 03-LOTR.py
+python 03-LOTR.ipynb
 ```
 
 ### Evaluation
