@@ -41,6 +41,7 @@ Are you passionate about transforming healthcare through data engineering and AI
 | **Role** | **Name** | **LinkedIn** | **Location** |
 |----------|----------|--------------|--------------|
 | **Founder** | Fatih E. NAR | [LinkedIn Profile](https://www.linkedin.com/in/fenar/) | Texas, USA |
+| **Founder** | Sedat Kaymaz | [LinkedIn Profile](https://www.linkedin.com/in/sedat-kaymaz/) | Istanbul, TR |
 
 > 📢 **Open Positions**: Seeking talented individuals to join our innovative healthcare AI research team!
 
