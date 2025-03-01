@@ -1,22 +1,22 @@
 # Core dependencies
-tensorflow>=2.7.0
-tensorflow-addons>=0.16.1
-numpy>=1.19.5
-pandas>=1.3.4
-matplotlib>=3.4.3
-scikit-learn>=1.0.1
-opencv-python>=4.5.4
-psutil>=5.8.0
+tensorflow[and-cuda]
+tensorflow-addons
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+psutil
 
 # Environment management
-python-dotenv>=0.19.2
+python-dotenv
 
 # Logging and monitoring
-tensorboard>=2.7.0
+tensorboard
 
 # Development tools (optional)
-pytest>=6.2.5
-pytest-cov>=2.12.1
-black>=21.9b0
-isort>=5.9.3
-flake8>=4.0.1
+pytest
+pytest-cov
+black
+isort
+flake8
