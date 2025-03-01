@@ -12,7 +12,7 @@ Welcome to **HC-AiX** – a collaborative experimental workspace dedicated to le
 |---------|------------|-----------------|
 | 🖼 [Cancer Image Basic Analysis](https://github.com/open-experiments/HC-AIX/tree/main/SingleModal-Basic) | Basic Prediction | Computer Vision, Deep Learning |
 | 🧮 [Cancer Image Advanced Analysis](https://github.com/open-experiments/HC-AIX/tree/main/SingleModal-Adv) | Advanced Prediction | Computer Vision, Deep Learning |
-| 🧮 [SFT Google BiT](https://github.com/open-experiments/HC-AIX/tree/main/BiT-SDFT) | Supervised Fine Tuning BiT | Computer Vision, Deep Learning |
+| ♆ [SFT Google BiT](https://github.com/open-experiments/HC-AIX/tree/main/BiT-SDFT) | Supervised Fine Tuning BiT | Computer Vision, Deep Learning |
 | 🔬 Additional Projects | *Coming Soon* | - |
 
 > 💡 **Collaborative Opportunity**: We are actively seeking researchers and data scientists interested in healthcare AI innovations.
