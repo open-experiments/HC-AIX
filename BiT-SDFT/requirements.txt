@@ -1,0 +1,32 @@
+# Core dependencies
+tensorflow[and-cuda]
+tensorflow-addons
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+psutil
+
+# Environment management
+python-dotenv
+
+# Logging and monitoring
+tensorboard
+
+# Development tools (optional)
+pytest
+pytest-cov
+black
+isort
+flake8
+
+# Add-Ons for Notebook work
+livelossplot
+tqdm
+seaborn
+scikit-image
+lightgbm
+xgboost
+torch
+torchvision
