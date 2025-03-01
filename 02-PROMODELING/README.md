@@ -84,8 +84,9 @@ Get Data Uncompressed and Distributed:
 python 01-prepare_data.py 
 ```
 
-### Training
+## Training
 
+### PRO-MODELING & INFERENCE
 Train a model using default settings:
 
 ```bash
@@ -95,13 +96,18 @@ python 02-main.py --mode train --batch-size 128 --xla --amp
 Use cross-validation:
 
 ```bash
-python main.py --mode train --cross-validation
+python 02-main.py --mode train --cross-validation
 ```
 
 Use lightweight model (MobileNetV2):
 
 ```bash
-python main.py --mode train --lightweight
+python 02-main.py --mode train --lightweight
+```
+
+### QUICK & DIRTY (LOTR)
+```bash
+python 03-LOTR.py
 ```
 
 ### Evaluation
