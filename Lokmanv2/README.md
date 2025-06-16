@@ -25,7 +25,7 @@
 ```bash
 # Clone and setup
 git clone https://github.com/open-experiments/HC-AIX.git
-cd Lokman-v2
+cd Lokmanv2
 
 # Install dependencies
 pip install -r requirements.txt
