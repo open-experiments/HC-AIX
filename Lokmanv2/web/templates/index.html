@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokman-v2: CT Breast Cancer Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+            --light-bg: #f8f9fa;
+            --dark-text: #2c3e50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color) !important;
+            font-size: 1.5rem;
+        }
+
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin: 2rem auto;
+            max-width: 1400px;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .header-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .header-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .header-section p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .upload-section {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .upload-area {
+            border: 3px dashed var(--secondary-color);
+            border-radius: 15px;
+            padding: 3rem 2rem;
+            background: var(--light-bg);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary-color);
+            background: #e8f4fd;
+            transform: translateY(-2px);
+        }
+
+        .upload-area.dragover {
+            border-color: var(--success-color);
+            background: #d5f4e6;
+        }
+
+        .upload-icon {
+            font-size: 4rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .upload-text {
+            font-size: 1.2rem;
+            color: var(--dark-text);
+            margin-bottom: 1rem;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .btn-upload {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #2980b9 100%);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-upload:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(52, 152, 219, 0.3);
+            color: white;
+        }
+
+        .progress-container {
+            margin-top: 2rem;
+            display: none;
+        }
+
+        .progress {
+            height: 8px;
+            border-radius: 10px;
+            background: #e9ecef;
+        }
+
+        .progress-bar {
+            background: linear-gradient(90deg, var(--secondary-color) 0%, var(--success-color) 100%);
+            border-radius: 10px;
+        }
+
+        .series-container {
+            display: none;
+            padding: 2rem;
+        }
+
+        .series-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .series-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .series-header {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 1.5rem;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .series-body {
+            padding: 1.5rem;
+        }
+
+        .series-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .series-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            color: #6c757d;
+        }
+
+        .meta-item i {
+            margin-right: 0.5rem;
+            color: var(--secondary-color);
+        }
+
+        .btn-analyze {
+            background: linear-gradient(135deg, var(--success-color) 0%, #229954 100%);
+            border: none;
+            padding: 10px 25px;
+            border-radius: 50px;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-analyze:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(39, 174, 96, 0.3);
+            color: white;
+        }
+
+        .btn-analyze:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .results-container {
+            display: none;
+            padding: 2rem;
+        }
+
+        .result-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .result-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+
+        .risk-high { background: var(--danger-color); color: white; }
+        .risk-moderate { background: var(--warning-color); color: white; }
+        .risk-low { background: var(--success-color); color: white; }
+        .risk-very-low { background: #17a2b8; color: white; }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .metric-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .metric-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-label {
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        .visualization-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .viz-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .viz-header {
+            background: var(--light-bg);
+            padding: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        .viz-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            border: 0.25em solid currentColor;
+            border-right-color: transparent;
+            border-radius: 50%;
+            animation: spinner-border 0.75s linear infinite;
+        }
+
+        @keyframes spinner-border {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            margin-left: 1rem;
+            font-weight: 500;
+        }
+
+        .alert-custom {
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .header-section h1 {
+                font-size: 2rem;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .visualization-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-user-md me-2"></i>
+                Lokman-v2
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#" onclick="showModelInfo()">
+                    <i class="fas fa-info-circle me-1"></i>
+                    Model Info
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container main-container" style="margin-top: 100px;">
+        <!-- Header Section -->
+        <div class="header-section">
+            <h1><i class="fas fa-brain me-3"></i>AI-Powered CT Analysis</h1>
+            <p>Advanced 3D deep learning system for breast cancer metastasis detection in CT scans. 
+               Upload your DICOM files to get comprehensive analysis with clinical insights.</p>
+        </div>
+
+        <!-- Upload Section -->
+        <div class="upload-section" id="uploadSection">
+            <h2 class="mb-4">Upload CT DICOM Files</h2>
+            
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="upload-area" id="uploadArea" onclick="document.getElementById('files').click()">
+                    <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                    <div class="upload-text">
+                        <strong>Click to upload</strong> or drag and drop your files here
+                    </div>
+                    <div class="text-muted">
+                        Supported formats: DICOM (.dcm), ZIP archives
+                    </div>
+                    <input type="file" id="files" name="files" class="file-input" multiple accept=".dcm,.zip">
+                </div>
+                
+                <div id="fileList" class="mt-3"></div>
+
+                <div class="mt-3">
+                    <button type="button" class="btn btn-upload" onclick="document.getElementById('files').click()">
+                        <i class="fas fa-upload me-2"></i>
+                        Select Files
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-lg w-100 mt-4" 
+                            id="analyzeBtn" style="display: none;">
+                        <i class="fas fa-microscope"></i> Analyze CT Scan
+                    </button>
+                </div>
+            </form>
+
+            <div class="progress-container" id="progressContainer">
+                <div class="d-flex align-items-center mb-2">
+                    <div class="spinner"></div>
+                    <span class="loading-text" id="loadingText">Uploading files...</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" id="progressBar" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Series Selection -->
+        <div class="series-container" id="seriesContainer">
+            <h2 class="mb-4">Select Series for Analysis</h2>
+            <div id="seriesList"></div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-container" id="resultsContainer">
+            <div id="resultsContent"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <p class="mb-0">
+                <i class="fas fa-shield-alt me-2"></i>
+                Secure Medical AI Analysis | Built with Advanced 3D Neural Networks
+            </p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+    <script src="{{ url_for('static', filename='js/enhanced-analysis.js') }}"></script>
+    
+    <script>
+        // Legacy JavaScript - now handled by enhanced-analysis.js
+        /*
+        let currentUploadId = null;
+
+        // File upload handling
+        document.getElementById('fileInput').addEventListener('change', handleFileSelect);
+
+        // Drag and drop handling
+        const uploadArea = document.getElementById('uploadArea');
+        
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, preventDefaults, false);
+        });
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, unhighlight, false);
+        });
+
+        uploadArea.addEventListener('drop', handleDrop, false);
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        function highlight() {
+            uploadArea.classList.add('dragover');
+        }
+
+        function unhighlight() {
+            uploadArea.classList.remove('dragover');
+        }
+
+        function handleDrop(e) {
+            const files = e.dataTransfer.files;
+            handleFiles(files);
+        }
+
+        function handleFileSelect(e) {
+            const files = e.target.files;
+            handleFiles(files);
+        }
+
+        function handleFiles(files) {
+            if (files.length === 0) return;
+
+            const formData = new FormData();
+            for (let file of files) {
+                formData.append('files', file);
+            }
+
+            uploadFiles(formData);
+        }
+
+        function uploadFiles(formData) {
+            const progressContainer = document.getElementById('progressContainer');
+            const progressBar = document.getElementById('progressBar');
+            const loadingText = document.getElementById('loadingText');
+
+            progressContainer.style.display = 'block';
+            progressBar.style.width = '0%';
+            loadingText.textContent = 'Uploading files...';
+
+            // Simulate progress
+            let progress = 0;
+            const progressInterval = setInterval(() => {
+                progress += Math.random() * 30;
+                if (progress > 90) progress = 90;
+                progressBar.style.width = progress + '%';
+            }, 500);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                clearInterval(progressInterval);
+                progressBar.style.width = '100%';
+                
+                if (data.success) {
+                    currentUploadId = data.upload_id;
+                    loadingText.textContent = 'Upload complete! Processing files...';
+                    
+                    setTimeout(() => {
+                        progressContainer.style.display = 'none';
+                        showSeriesSelection(data.series_info);
+                    }, 1000);
+                } else {
+                    throw new Error(data.error || 'Upload failed');
+                }
+            })
+            .catch(error => {
+                clearInterval(progressInterval);
+                progressContainer.style.display = 'none';
+                
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Upload Failed',
+                    text: error.message,
+                    confirmButtonColor: '#e74c3c'
+                });
+            });
+        }
+
+        function showSeriesSelection(seriesInfo) {
+            const uploadSection = document.getElementById('uploadSection');
+            const seriesContainer = document.getElementById('seriesContainer');
+            const seriesList = document.getElementById('seriesList');
+
+            uploadSection.style.display = 'none';
+            seriesContainer.style.display = 'block';
+
+            seriesList.innerHTML = '';
+
+            Object.entries(seriesInfo).forEach(([seriesUid, info]) => {
+                const seriesCard = createSeriesCard(seriesUid, info);
+                seriesList.appendChild(seriesCard);
+            });
+        }
+
+        function createSeriesCard(seriesUid, info) {
+            const card = document.createElement('div');
+            card.className = 'series-card';
+            
+            card.innerHTML = `
+                <div class="series-header">
+                    <div class="series-title">${info.series_description}</div>
+                    <div class="text-muted">${info.study_description}</div>
+                </div>
+                <div class="series-body">
+                    <div class="series-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-user"></i>
+                            <span>Patient: ${info.patient_id}</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Date: ${info.study_date}</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-layer-group"></i>
+                            <span>Slices: ${info.num_slices}</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-x-ray"></i>
+                            <span>Modality: ${info.modality}</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-analyze" onclick="analyzeSeries('${seriesUid}')">
+                        <i class="fas fa-brain me-2"></i>
+                        Analyze with AI
+                    </button>
+                </div>
+            `;
+
+            return card;
+        }
+
+        function analyzeSeries(seriesUid) {
+            const button = event.target;
+            const originalHtml = button.innerHTML;
+            
+            button.disabled = true;
+            button.innerHTML = '<div class="spinner"></div><span class="loading-text">Analyzing...</span>';
+
+            fetch(`/analyze/${currentUploadId}/${seriesUid}`, {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    showResults(data, seriesUid);
+                } else {
+                    throw new Error(data.error || 'Analysis failed');
+                }
+            })
+            .catch(error => {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Analysis Failed',
+                    text: error.message,
+                    confirmButtonColor: '#e74c3c'
+                });
+            })
+            .finally(() => {
+                button.disabled = false;
+                button.innerHTML = originalHtml;
+            });
+        }
+
+        function showResults(data, seriesUid) {
+            const seriesContainer = document.getElementById('seriesContainer');
+            const resultsContainer = document.getElementById('resultsContainer');
+            const resultsContent = document.getElementById('resultsContent');
+
+            seriesContainer.style.display = 'none';
+            resultsContainer.style.display = 'block';
+
+            const clinical = data.clinical_analysis;
+            const risk = clinical.risk_assessment;
+            const volume = clinical.volume_analysis;
+
+            resultsContent.innerHTML = `
+                <div class="result-card">
+                    <div class="result-header">
+                        <h3><i class="fas fa-chart-line me-2"></i>Analysis Results</h3>
+                        <div class="risk-badge risk-${risk.risk_level.toLowerCase().replace(' ', '-')}">
+                            ${risk.risk_level} Risk
+                        </div>
+                        <p class="mt-2 mb-0">${risk.risk_description}</p>
+                    </div>
+
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-value">${risk.abnormal_tissue_percentage.toFixed(1)}%</div>
+                            <div class="metric-label">Abnormal Tissue</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${volume.class_percentages.Malignant.toFixed(1)}%</div>
+                            <div class="metric-label">Malignant Tissue</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${volume.class_percentages.Tumor.toFixed(1)}%</div>
+                            <div class="metric-label">Tumor Tissue</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value">${volume.class_percentages.Normal.toFixed(1)}%</div>
+                            <div class="metric-label">Normal Tissue</div>
+                        </div>
+                    </div>
+
+                    ${data.visualizations ? createVisualizationSection(data.visualizations) : ''}
+
+                    <div class="text-center p-3">
+                        <button class="btn btn-primary me-2" onclick="downloadResults('${seriesUid}')">
+                            <i class="fas fa-download me-2"></i>
+                            Download Results
+                        </button>
+                        <button class="btn btn-secondary" onclick="startNewAnalysis()">
+                            <i class="fas fa-plus me-2"></i>
+                            New Analysis
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            // Scroll to results
+            resultsContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function createVisualizationSection(visualizations) {
+            let html = '<h4 class="text-center mt-4 mb-3">Medical Visualizations</h4><div class="visualization-grid">';
+            
+            const vizTitles = {
+                'slice_': 'CT Slice Analysis',
+                'projection_axial': 'Axial Projection',
+                'projection_coronal': 'Coronal Projection',
+                'projection_sagittal': 'Sagittal Projection'
+            };
+
+            Object.entries(visualizations).forEach(([key, imageData]) => {
+                const title = Object.keys(vizTitles).find(k => key.includes(k)) ? 
+                             vizTitles[Object.keys(vizTitles).find(k => key.includes(k))] : 
+                             key.replace('_', ' ').toUpperCase();
+
+                html += `
+                    <div class="viz-card">
+                        <div class="viz-header">${title}</div>
+                        <img src="data:image/png;base64,${imageData}" class="viz-image" alt="${title}">
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+            return html;
+        }
+
+        function downloadResults(seriesUid) {
+            window.open(`/download/${currentUploadId}/${seriesUid}`, '_blank');
+        }
+
+        function startNewAnalysis() {
+            location.reload();
+        }
+
+        function showModelInfo() {
+            fetch('/model-info')
+            .then(response => response.json())
+            .then(data => {
+                const arch = data.model_architecture || {};
+                const status = data.model_status || {};
+                const training = data.training_results || {};
+                const evaluation = data.evaluation_results || {};
+                const logs = data.training_logs || [];
+                const files = data.model_files || [];
+                const dataset = data.dataset_info || {};
+                
+                let html = `
+                    <div class="text-start">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="text-primary"><i class="fas fa-brain me-2"></i>Model Architecture</h6>
+                                <table class="table table-sm">
+                                    <tr><td><strong>Name:</strong></td><td>${arch.name || 'N/A'}</td></tr>
+                                    <tr><td><strong>Type:</strong></td><td>${arch.type || 'N/A'}</td></tr>
+                                    <tr><td><strong>Classes:</strong></td><td>${arch.classes ? arch.classes.join(', ') : 'N/A'}</td></tr>
+                                    <tr><td><strong>Channels:</strong></td><td>${arch.input_channels || 'N/A'} → ${arch.output_channels || 'N/A'}</td></tr>
+                                    <tr><td><strong>Base Channels:</strong></td><td>${arch.base_channels || 'N/A'}</td></tr>
+                                </table>
+                                
+                                <h6 class="text-success mt-3"><i class="fas fa-cog me-2"></i>Model Status</h6>
+                                <table class="table table-sm">
+                                    <tr><td><strong>Loaded:</strong></td><td>${status.loaded ? '✅ Yes' : '❌ No'}</td></tr>
+                                    <tr><td><strong>Device:</strong></td><td>${status.device || 'N/A'}</td></tr>
+                                    <tr><td><strong>Parameters:</strong></td><td>${status.parameters || 'N/A'}</td></tr>
+                                    <tr><td><strong>GPU Memory:</strong></td><td>${status.memory_usage || 'N/A'}</td></tr>
+                                </table>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <h6 class="text-warning"><i class="fas fa-chart-line me-2"></i>Training Results</h6>
+                                <table class="table table-sm">`;
+                
+                if (Object.keys(training).length > 0) {
+                    html += `
+                        <tr><td><strong>Final Epoch:</strong></td><td>${training.final_epoch || 'N/A'}</td></tr>
+                        <tr><td><strong>Final Loss:</strong></td><td>${training.final_test_loss || 'N/A'}</td></tr>
+                        <tr><td><strong>Final Accuracy:</strong></td><td>${training.final_test_accuracy || 'N/A'}</td></tr>
+                        <tr><td><strong>Best Val Accuracy:</strong></td><td>${training.best_val_accuracy || 'N/A'}</td></tr>
+                        <tr><td><strong>Training Time:</strong></td><td>${training.training_time || 'N/A'}</td></tr>
+                        <tr><td><strong>Optimizer:</strong></td><td>${training.optimizer || 'N/A'}</td></tr>
+                        <tr><td><strong>Learning Rate:</strong></td><td>${training.learning_rate || 'N/A'}</td></tr>`;
+                } else {
+                    html += `<tr><td colspan="2" class="text-muted">No training results available</td></tr>`;
+                }
+                
+                html += `</table>
+                                
+                                <h6 class="text-info mt-3"><i class="fas fa-clipboard-check me-2"></i>Evaluation Results</h6>
+                                <table class="table table-sm">`;
+                
+                if (Object.keys(evaluation).length > 0) {
+                    html += `
+                        <tr><td><strong>Test Accuracy:</strong></td><td>${evaluation.test_accuracy || 'N/A'}</td></tr>
+                        <tr><td><strong>Val Accuracy:</strong></td><td>${evaluation.validation_accuracy || 'N/A'}</td></tr>
+                        <tr><td><strong>Precision:</strong></td><td>${evaluation.precision || 'N/A'}</td></tr>
+                        <tr><td><strong>Recall:</strong></td><td>${evaluation.recall || 'N/A'}</td></tr>
+                        <tr><td><strong>F1 Score:</strong></td><td>${evaluation.f1_score || 'N/A'}</td></tr>
+                        <tr><td><strong>Test Samples:</strong></td><td>${evaluation.test_samples || 'N/A'}</td></tr>`;
+                } else {
+                    html += `<tr><td colspan="2" class="text-muted">No evaluation results available</td></tr>`;
+                }
+                
+                html += `</table>
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <h6 class="text-secondary"><i class="fas fa-database me-2"></i>Dataset Info</h6>
+                                <table class="table table-sm">`;
+                
+                if (dataset.total_samples) {
+                    html += `
+                        <tr><td><strong>Total Samples:</strong></td><td>${dataset.total_samples}</td></tr>
+                        <tr><td><strong>Data Splits:</strong></td><td>Available</td></tr>
+                        <tr><td><strong>Processed Data:</strong></td><td>Available</td></tr>`;
+                } else {
+                    html += `<tr><td colspan="2" class="text-muted">${dataset.status || 'Dataset info not available'}</td></tr>`;
+                }
+                
+                html += `</table>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <h6 class="text-dark"><i class="fas fa-file me-2"></i>Model Files</h6>`;
+                
+                if (files.length > 0) {
+                    html += `<div style="max-height: 150px; overflow-y: auto;">`;
+                    files.forEach(file => {
+                        const date = new Date(file.modified * 1000).toLocaleDateString();
+                        html += `<small><strong>${file.name}</strong><br>Size: ${file.size_mb} MB | Modified: ${date}</small><br>`;
+                    });
+                    html += `</div>`;
+                } else {
+                    html += `<small class="text-muted">No model files found</small>`;
+                }
+                
+                html += `</div>
+                        </div>`;
+                
+                if (logs.length > 0) {
+                    html += `
+                        <div class="mt-3">
+                            <h6 class="text-muted"><i class="fas fa-terminal me-2"></i>Recent Training Log</h6>
+                            <div style="background: #f8f9fa; padding: 10px; border-radius: 5px; max-height: 200px; overflow-y: auto; font-family: monospace; font-size: 0.8rem;">`;
+                    logs.forEach(log => {
+                        html += `${log}<br>`;
+                    });
+                    html += `</div>
+                        </div>`;
+                }
+                
+                html += `</div>`;
+                
+                Swal.fire({
+                    title: '<i class="fas fa-info-circle text-primary"></i> Lokman-v2 Model Information',
+                    html: html,
+                    width: '90%',
+                    showConfirmButton: true,
+                    confirmButtonText: 'Close',
+                    confirmButtonColor: '#667eea',
+                    customClass: {
+                        popup: 'model-info-popup'
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Model info error:', error);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Could not load model information',
+                    confirmButtonColor: '#e74c3c'
+                });
+            });
+        }
+
+        // Health check on page load
+        fetch('/health')
+        .then(response => response.json())
+        .then(data => {
+            if (!data.inference_engine) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'System Status',
+                    text: 'Inference engine is not ready. Please contact administrator.',
+                    confirmButtonColor: '#f39c12'
+                });
+            }
+        })
+        .catch(error => {
+            console.warn('Health check failed:', error);
+        });
+        */
+    </script>
+</body>
+</html>

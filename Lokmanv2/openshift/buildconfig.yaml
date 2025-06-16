@@ -1,0 +1,31 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: lokman-v2
+  labels:
+    app: lokman-v2
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: lokman-v2:latest
+  source:
+    type: Git
+    git:
+      uri: https://github.com/your-repo/lokman-v2.git
+      ref: main
+    contextDir: /
+  strategy:
+    type: Docker
+    dockerStrategy:
+      dockerfilePath: Dockerfile
+  triggers:
+  - type: ConfigChange
+  - type: ImageChange
+---
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  name: lokman-v2
+  labels:
+    app: lokman-v2

@@ -1,0 +1,101 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lokman-v2
+  labels:
+    app: lokman-v2
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lokman-v2
+  template:
+    metadata:
+      labels:
+        app: lokman-v2
+        version: v1
+    spec:
+      containers:
+      - name: lokman-v2
+        image: lokman-v2:latest
+        ports:
+        - containerPort: 30080
+          protocol: TCP
+        env:
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "1"
+          limits:
+            memory: "4Gi"
+            cpu: "2"
+            nvidia.com/gpu: "1"  # Request GPU if available
+        volumeMounts:
+        - name: model-storage
+          mountPath: /app/models
+        - name: upload-storage
+          mountPath: /app/uploads
+        livenessProbe:
+          httpGet:
+            path: /api/health
+            port: 30080
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /api/health
+            port: 30080
+          initialDelaySeconds: 5
+          periodSeconds: 5
+      volumes:
+      - name: model-storage
+        persistentVolumeClaim:
+          claimName: model-storage-pvc
+      - name: upload-storage
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: lokman-v2
+  labels:
+    app: lokman-v2
+spec:
+  ports:
+  - port: 30080
+    targetPort: 30080
+    protocol: TCP
+    name: http
+  selector:
+    app: lokman-v2
+  type: ClusterIP
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: lokman-v2
+  labels:
+    app: lokman-v2
+spec:
+  to:
+    kind: Service
+    name: lokman-v2
+  port:
+    targetPort: http
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: model-storage-pvc
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi

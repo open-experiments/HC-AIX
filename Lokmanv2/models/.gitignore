@@ -1,0 +1,25 @@
+# Model files - too large for git
+*.pth
+*.pt
+*.pkl
+*.bin
+
+# Training logs
+logs/*.txt
+
+# Results and plots (can be regenerated)
+results/*.json
+plots/*.png
+plots/*.pdf
+
+# Checkpoints
+checkpoints/*.pth
+checkpoints/*.pt
+
+# Keep directory structure
+!.gitignore
+!README.md
+!checkpoints/.gitkeep
+!results/.gitkeep
+!logs/.gitkeep
+!plots/.gitkeep

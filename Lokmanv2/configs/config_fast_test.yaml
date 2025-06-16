@@ -1,0 +1,62 @@
+data:
+  intensity_range:
+  - -1000
+  - 1000
+  target_size:
+  - 64
+  - 64
+  - 64
+  target_spacing:
+  - 1.0
+  - 1.0
+  - 1.0
+  test_ratio: 0.15
+  train_ratio: 0.7
+  use_augmentation: false  # Disable for fast testing
+  val_ratio: 0.15
+  augmentation:
+    types: ['rotate_90', 'flip_horizontal']
+    splits: ['train']
+    preserve_ratios: true
+gpu:
+  enable_channels_last: false  # Disable for CPU testing
+  enable_cudnn_benchmark: false
+  enable_fp16: false  # Disable for CPU
+  enable_optimization: false
+  enable_tf32: false
+loss:
+  boundary_weight: 0.0
+  dice_weight: 0.5
+  focal_weight: 0.4
+  tversky_weight: 0.1
+  focal_gamma: 2.0
+  focal_alpha: 0.25
+  class_weights: [0.1, 10.0, 15.0, 20.0]
+model:
+  base_channels: 16  # Reduced for faster testing
+  depth: 3  # Reduced depth
+  in_channels: 1
+  name: SimpleAttentionUNet3D
+  out_channels: 4
+  use_attention: false  # Disable for faster testing
+  use_deep_supervision: false
+  normalization: 'batch'
+  activation: 'relu'
+  dropout_rate: 0.1
+paths:
+  data_root: data/processed
+  logs_dir: models/logs
+  model_save_dir: models
+  results_dir: models/results
+training:
+  batch_size: 1  # Minimal for CPU testing
+  early_stopping_patience: 5  # Reduced for fast testing
+  gradient_clip_val: 1.0
+  learning_rate: 0.001  # Higher LR for fast convergence
+  num_epochs: 2  # Minimal for testing
+  optimizer: AdamW
+  scheduler: CosineAnnealingWarmRestarts
+  use_mixed_precision: false  # Disable for CPU
+  weight_decay: 1.0e-04
+  warmup_epochs: 0  # No warmup for fast testing
+  label_smoothing: 0.0

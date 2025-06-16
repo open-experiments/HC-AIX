@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Data files (large files should not be in git)
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# Logs and results
+logs/
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*deprecated*
+*old*
+
+# Model outputs (these should be in models/ but ignored by git due to size)
+models/*.pth
+models/checkpoints/*.pth
+models/results/*.json
+models/logs/*.txt
+models/plots/*.png
+models/plots/*.jpg
+
+# Data directories (medical data should not be in git)
+data/processed/volumes/
+data/processed/masks/
+data/processed/metadata/
+data/data-original/
+data-original/
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/

@@ -1,0 +1,62 @@
+data:
+  intensity_range:
+  - -1000
+  - 1000
+  target_size:
+  - 160
+  - 160
+  - 160
+  target_spacing:
+  - 1.0
+  - 1.0
+  - 1.0
+  test_ratio: 0.15
+  train_ratio: 0.7
+  use_augmentation: true
+  val_ratio: 0.15
+  augmentation:
+    types: ['rotate_90', 'flip_horizontal']
+    splits: ['train']
+    preserve_ratios: true
+gpu:
+  enable_channels_last: true
+  enable_cudnn_benchmark: true
+  enable_fp16: true
+  enable_optimization: true
+  enable_tf32: true
+loss:
+  boundary_weight: 0.0
+  dice_weight: 0.5
+  focal_weight: 0.4
+  tversky_weight: 0.1
+  focal_gamma: 2.0
+  focal_alpha: 0.25
+  class_weights: [0.1, 10.0, 15.0, 20.0]
+model:
+  base_channels: 32
+  depth: 5
+  in_channels: 1
+  name: AttentionUNet3D
+  out_channels: 4
+  use_attention: true
+  use_deep_supervision: true
+  normalization: 'batch'
+  activation: 'relu'
+  dropout_rate: 0.1
+paths:
+  data_root: data/processed
+  logs_dir: models/logs
+  model_save_dir: models
+  results_dir: models/results
+training:
+  batch_size: 4
+  early_stopping_patience: 25
+  gradient_clip_val: 1.0
+  learning_rate: 0.0005
+  num_epochs: 100
+  optimizer: AdamW
+  scheduler: CosineAnnealingWarmRestarts
+  use_mixed_precision: true
+  weight_decay: 1.0e-04
+  warmup_epochs: 5
+  label_smoothing: 0.1
