@@ -355,6 +355,4 @@ oc get route lokman-v2
 **Note**: This system is for research and development purposes. Clinical deployment requires proper validation and regulatory approval.
 
 🔗 **Quick Links**
-- [Troubleshooting Guide](TROUBLESHOOTING.md)
-- [Development Guide](CLAUDE.md)
 - [Configuration Details](configs/config.yaml)
