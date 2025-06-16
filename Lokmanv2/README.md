@@ -46,6 +46,10 @@ python scripts/evaluate_model.py --fast-test
 python web/ocp_app.py --model models/best_model.pth
 ```
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/open-experiments/HC-AIX/refs/heads/main/Lokmanv2/web/lokv2.png" width="1200"/>
+</div>
+
 ## 📋 When to Use Which Script
 
 ### 🔄 **Data Pipeline Scripts** (Use in Order)
